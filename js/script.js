@@ -13,3 +13,14 @@ document.querySelectorAll('.project-container .project').forEach(project =>{
         })
     }
 })
+
+function togglePopup1(){
+    document.getElementById("popup-1").classList.toggle("active");
+}
+
+function togglePopup2(){
+    document.getElementById("popup-2").classList.toggle("active");
+}
+function togglePopup3(){
+    document.getElementById("popup-3").classList.toggle("active");
+}

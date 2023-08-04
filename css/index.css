@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Rowdies:wght@400;700&family=Space+Grotesk:wght@300;400&display=swap');
+html, body{
+    height: auto;
+    background: #2B2B2B;
+  color: #C8C8C8;
+}
+section{
+    min-height: 100vh;
+}
+#greet {
+    min-height: 70vh;
+   
+}
+.decor{
+    border-radius: 776px;
+border: 5px double rgba(255, 204, 0, 0.292);
+background: rgba(255, 255, 255, 0);
+width: 760px;
+height: 776px;
+flex-wrap: wrap;
+flex-shrink: 0;
+position: absolute;
+  left: -15%;
+  top: -50%;
+
+}
+.dc_{
+    border-radius: 776px;
+background: rgba(70, 70, 70, 0.185);
+fill: #C8C8C8;
+width: 760px;
+height: 776px;
+flex-wrap: wrap;
+flex-shrink: 0;
+position: absolute;
+  right: -15%;
+  top: 45em; 
+        
+}  
+.dc_l{
+    border-radius: 776px;
+background: rgba(70, 70, 70, 0.185);
+fill: #C8C8C8;
+width: 760px;
+height: 776px;
+flex-wrap: wrap;
+flex-shrink: 0;
+position: absolute;
+  left: -15%;
+  top: 100em; 
+        
+}    
+
+#greet-text{
+    color: white;
+    font-family: 'Rowdies', cursive;
+    font-size: 195px;
+    line-height: 170px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    position: relative;
+    
+}
+
+#about{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+
+.skill-card{
+    letter-spacing: 2px;
+    padding: 50px;
+    background-color: #383838c0;
+    border: 1px solid rgb(40, 40, 40);
+    box-sizing: border-box;
+    box-shadow: 10px 10px;
+    
+ 
+}
+.skill_list{  
+     line-height: 30px;
+    list-style-type:none;
+    text-decoration:overline;
+    text-decoration-thickness: 3px;
+    text-decoration-color: rgba(79, 232, 243, 0.84);
+}
+.content_skill{
+    text-align: justify;
+    margin-top: 80px;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.hide{
+    opacity: 0;
+    transition: all 2s;
+}
+
+.about_content.hide{
+    transform: translateY(80%);
+    filter: blur(3px);
+}
+.show .about_content{
+    transform: translateY(0);
+    filter: blur(0);
+}
+.about_content:nth-child(3){
+transition-delay: 200ms;
+}
+
+.about_content:nth-child(4){
+    transition-delay: 200ms;
+    }
+.show {
+    opacity: 1;
+    transform: translateX(0);
+}
