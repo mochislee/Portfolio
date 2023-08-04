@@ -12,6 +12,12 @@ section{
     min-height: 70vh;
    
 }
+
+a{
+    text-decoration: none;
+    color: #C8C8C8;
+    padding: 20px;
+}
 .decor{
     border-radius: 776px;
 border: 5px double rgba(255, 204, 0, 0.292);
@@ -67,7 +73,10 @@ position: absolute;
     padding-left: 10%;
     padding-right: 10%;
 }
-
+.prj_content{
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
 
 .skill-card{
     letter-spacing: 2px;
